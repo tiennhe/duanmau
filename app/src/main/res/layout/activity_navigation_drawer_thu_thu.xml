@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/navigation_drawer_2"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+
+    android:layout_height="match_parent"
+    tools:context=".Navigation_drawer_thu_thu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar2"
+                android:fitsSystemWindows="true"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/framer2"/>
+
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu_thu_thu"
+        android:id="@+id/nav_view2"
+        app:headerLayout="@layout/nav_thu_thu"
+        android:layout_gravity="start"
+        tools:ignore="MissingConstraints"/>
+</androidx.drawerlayout.widget.DrawerLayout>

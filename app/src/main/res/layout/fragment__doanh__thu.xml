@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+   android:gravity="center"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_Doanh_Thu">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu từ"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtStart"
+        android:hint="nhập nhày bắt đầu"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="đến ngày:"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtStop"
+        android:hint="nhập ngày kết thúc "/>
+    <Button
+        android:id="@+id/thongke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thống kê"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kết quả"
+        android:textSize="20sp"
+        android:textColor="@color/teal_200"
+        android:id="@+id/tvketquathongke"/>
+
+
+</LinearLayout>
