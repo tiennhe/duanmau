@@ -46,9 +46,6 @@ public class Fragment_QLPhieuMuon extends Fragment {
     public Fragment_QLPhieuMuon() {
         // Required empty public constructor
     }
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

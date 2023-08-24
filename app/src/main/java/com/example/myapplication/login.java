@@ -24,6 +24,7 @@ public class login extends AppCompatActivity {
     Intent  intent ;
     SharedPreferences sharedPreferences1;
     SharedPreferences.Editor editor1 ,editor2 ;
+
     String USERNAME_KEY = "user";
     String PASSWORLD_KEY = "pass";
 

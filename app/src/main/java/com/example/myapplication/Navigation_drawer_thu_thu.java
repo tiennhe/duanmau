@@ -112,12 +112,7 @@ public class Navigation_drawer_thu_thu extends AppCompatActivity {
         EditText old = view.findViewById(R.id.mkcu);
         EditText newp = view.findViewById(R.id.mkmoi);
         EditText newpre = view.findViewById(R.id.mkmoire);
-
-
         builder.setView(view);
-
-
-
         AlertDialog alertDialog = builder.create();
         alertDialog.setCancelable(false);
         alertDialog.show();

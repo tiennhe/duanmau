@@ -84,6 +84,7 @@ public class Phieu_Muon {
             while(!cursor.isAfterLast()){
                 list.add(new Phieu_Muon_MODEL(cursor.getInt(0) , cursor.getInt(1) , cursor.getInt(2) , cursor.getString(3)));
                 cursor.moveToNext();
+
             }
         }
         return list;
@@ -98,7 +99,6 @@ public class Phieu_Muon {
                 "WHERe ngay BETWEEN '04/10/2022' AND '23/10/2022' " , null);
         if(cursor.getCount()!=0){
             cursor.moveToFirst();
-
             while(!cursor.isAfterLast()){
                 list.add(new Phieu_Muon_MODEL(cursor.getInt(0) , cursor.getInt(1) , cursor.getInt(2) , cursor.getString(3)));
                 cursor.moveToNext();
